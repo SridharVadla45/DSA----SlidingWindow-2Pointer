@@ -15,7 +15,11 @@ public class Main {
         int maxLength = src.LongestSubStringWithoutRepeatingCharacters.Solution.maxLength(input);
         System.out.println("max length of substring without repeating characters "+maxLength);
 
-
+        // Longest SubArray  with consecutive ones after flipping k zeros
+        int kflips=2;
+        int [] arr= {1,1,1,0,0,0,1,1,1,1,0};
+        int maxConsecutiveOnes = src.MaxConsecutiveOnes.Solution.findLengthOfSubArrayWithMaxConsecutive1s(arr,kflips);
+        System.out.println("Max consecutive length after k flips "+ maxConsecutiveOnes);
 
     }
 }
