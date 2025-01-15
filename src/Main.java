@@ -8,5 +8,14 @@ public class Main {
         int k =4;
         int maxPoints = Solution.maxPoints(cards,k);
         System.out.println("Maximum points obtained from cards : " + maxPoints);
+
+        // Longest Substring without repeating characters
+        String input = "abcabcbb";
+//        String input2="bbbbbb";
+        int maxLength = src.LongestSubStringWithoutRepeatingCharacters.Solution.maxLength(input);
+        System.out.println("max length of substring without repeating characters "+maxLength);
+
+
+
     }
 }
