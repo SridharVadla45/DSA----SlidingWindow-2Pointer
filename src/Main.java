@@ -47,7 +47,15 @@ public class Main {
         int [] nums = {1,0,1,0,1};
         int goal = 2;
         int totalSubArrays = src.BinarySubArrayWithSumK.Solution.betterSolution(nums, goal) - src.BinarySubArrayWithSumK.Solution.betterSolution(nums, goal - 1);
-        System.out.println("Total No of sub arrays with sum k : "+totalSubArrays);
+        System.out.println("7. Total No of sub arrays with sum k : "+totalSubArrays);
+
+
+        //Nice SubArrays with k odd numbers
+        int [] numsOddNumbers = {1,1,2,1,1};
+        int kOddNumbers = 3;
+        int TotalOddNumberSubArrays = src.NiceSubArrays.Solution.findNiceSubArrayBetter(numsOddNumbers, kOddNumbers) - src.NiceSubArrays.Solution.findNiceSubArrayBetter(numsOddNumbers, kOddNumbers - 1);
+        System.out.println("8. Total No of subarrays with k odd numbers"+TotalOddNumberSubArrays);
+
 
 
 
