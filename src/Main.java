@@ -42,5 +42,14 @@ public class Main {
        int noofsubstrings=  src.NoOfSubStringsWithAll3Characters.Solution.findBetter(input6);
         System.out.println("6. NO Of Substrings with all three  characters : "+noofsubstrings);
 
+
+        // BinarySubArrayWith Sum K
+        int [] nums = {1,0,1,0,1};
+        int goal = 2;
+        int totalSubArrays = src.BinarySubArrayWithSumK.Solution.betterSolution(nums, goal) - src.BinarySubArrayWithSumK.Solution.betterSolution(nums, goal - 1);
+        System.out.println("Total No of sub arrays with sum k : "+totalSubArrays);
+
+
+
     }
 }
