@@ -35,5 +35,12 @@ public class Main {
         int Longest= src.LongestSubstringWithAtMostKDistinctCharacters.Solution.findLongestSubStringWithAtMostKDistinctCharacters(inputString,kdistinct);
         System.out.println("5. Length of longest substring with at most k distinct characters :"+Longest);
 
+
+
+        // No of SubStrings with all three characters
+        String input6="abcabc";
+       int noofsubstrings=  src.NoOfSubStringsWithAll3Characters.Solution.findBetter(input6);
+        System.out.println("6. NO Of Substrings with all three  characters : "+noofsubstrings);
+
     }
 }
