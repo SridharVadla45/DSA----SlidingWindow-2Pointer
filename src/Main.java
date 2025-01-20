@@ -11,7 +11,6 @@ public class Main {
 
         // Longest Substring without repeating characters
         String input = "abcabcbb";
-//        String input2="bbbbbb";
         int maxLength = src.LongestSubStringWithoutRepeatingCharacters.Solution.maxLength(input);
         System.out.println("2. max length of substring without repeating characters " + maxLength);
 
@@ -31,8 +30,8 @@ public class Main {
         // LongestSubStringWithAtMost K Distinct characters
         int kdistinct = 2;
         String inputString = "aaabbccd";
-        int Longest = src.LongestSubstringWithAtMostKDistinctCharacters.Solution.findLongestSubStringWithAtMostKDistinctCharacters(inputString, kdistinct);
-        System.out.println("5. Length of longest substring with at most k distinct characters :" + Longest);
+        int longest = src.LongestSubstringWithAtMostKDistinctCharacters.Solution.findLongestSubStringWithAtMostKDistinctCharacters(inputString, kdistinct);
+        System.out.println("5. Length of longest substring with at most k distinct characters :" + longest);
 
 
         // No of SubStrings with all three characters
@@ -51,8 +50,8 @@ public class Main {
         //Nice SubArrays with k odd numbers
         int[] numsOddNumbers = {1, 1, 2, 1, 1};
         int kOddNumbers = 3;
-        int TotalOddNumberSubArrays = src.NiceSubArrays.Solution.findNiceSubArrayBetter(numsOddNumbers, kOddNumbers) - src.NiceSubArrays.Solution.findNiceSubArrayBetter(numsOddNumbers, kOddNumbers - 1);
-        System.out.println("8. Total No of subarrays with k odd numbers" + TotalOddNumberSubArrays);
+        int totalOddNumberSubArrays = src.NiceSubArrays.Solution.findNiceSubArrayBetter(numsOddNumbers, kOddNumbers) - src.NiceSubArrays.Solution.findNiceSubArrayBetter(numsOddNumbers, kOddNumbers - 1);
+        System.out.println("8. Total No of subarrays with k odd numbers" + totalOddNumberSubArrays);
 
 
         //Subarrays with k distinct values
